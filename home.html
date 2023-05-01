@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Index</title>
+    <style>
+      
+      .gradient-box {
+  background: linear-gradient(to right, #057ACF, #00CCC6, #019AC4);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}  
+        .card-product:hover {
+          box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+        
+        .card-product .add-to-cart-btn {
+          opacity: 0;
+          transition: opacity 0.3s ease-in-out;
+        }
+        
+        .card-product:hover .add-to-cart-btn {
+          opacity: 1;
+        }
+        </style>
+</head>
+
+<body>
+<div class="ms-5 me-5 mt-5">
+    <div class="row">
+        <div class="col-xl-3 col-lg-4 col-sm-12 ">
+            <h5 class="mb-4">Products <span class="p-2 text-dark-emphasis">(524 Products)</span></h5>
+            <div class="border border-1 border-dark-subtle p-3 pt-5 pb-5 rounded-2">
+                <h5 class="mb-3">Price</h5> 
+                <div class="d-flex align-items-center">
+                    <button type="button" class="btn bg-light border-secondary rounded-pill ps-xl-4 ps-5 ps-sm-0 ps-md-5 text-nowrap ms-3">0   &nbsp;&nbsp;&nbsp;&nbsp;<span class="ps-4">$</span></button>
+                    <hr class="ms-1 me-1 d-none d-md-block" style="width: 20px;">
+                    <button type="button" class="btn bg-light border-secondary rounded-pill ps-xl-4 ps-5 ps-sm-0 ps-md-5 text-nowrap">6900 <span class="ps-4">$</span></button>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <h5 class="mb-3">MOQ</h5> 
+                    <input type="text" class="form-control rounded-pill text-center bg-light"style="height: 44px;" id="exampleFormControlInput1" placeholder="Less than">
+                  </div>
+                  <br><br>
+                  <div class="form-group">
+                  <h5 class="mb-3">Product Certification</h5> 
+                    <input type="email" class="form-control rounded-pill text-center bg-light"style="height: 44px;" id="exampleFormControlInput1" placeholder="Product Certifications... ">
+                  </div>
+                <br>
+                  <div class="form-group" style="height: 150px; overflow-y: scroll; scrollbar-width: thin;">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+                      <label class="form-check-label" for="checkbox1">
+                        ASTM
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+                      <label class="form-check-label" for="checkbox2">
+                        CE
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox3">
+                      <label class="form-check-label" for="checkbox3">
+                        Certificate Of Compliance
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox4">
+                      <label class="form-check-label" for="checkbox4">
+                        Certificate Of Conformity
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox5">
+                      <label class="form-check-label" for="checkbox5">
+                       EN
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox6">
+                      <label class="form-check-label" for="checkbox6">
+                        EPA
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox7">
+                      <label class="form-check-label" for="checkbox7">
+                        FCC
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox8">
+                      <label class="form-check-label" for="checkbox8">
+                        FDA
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox9">
+                      <label class="form-check-label" for="checkbox9">
+                       GB
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="checkbox10">
+                      <label class="form-check-label" for="checkbox10">
+                       Green Clean Certification
+                      </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox10">
+                        <label class="form-check-label" for="checkbox10">
+                         Intertek
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox10">
+                        <label class="form-check-label" for="checkbox10">
+                        ISO 11439-2000
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox10">
+                        <label class="form-check-label" for="checkbox10">
+                            ISO 11439-2013
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox10">
+                        <label class="form-check-label" for="checkbox10">
+                         ROHS
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox10">
+                        <label class="form-check-label" for="checkbox10">
+                        SGS
+                        </label>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <h5 class="mb-3">Supplier Certification</h5> 
+                      <input type="email" class="form-control rounded-pill text-center bg-light"style="height: 44px;" id="exampleFormControlInput1" placeholder="Supplier Certification...">
+                    </div>
+                  <br>
+                    <div class="form-group" >
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+                        <label class="form-check-label" for="checkbox1">
+                          DUNS
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+                        <label class="form-check-label" for="checkbox2">
+                          DRS
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox3">
+                        <label class="form-check-label" for="checkbox3">
+                         GMP
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox4">
+                        <label class="form-check-label" for="checkbox4">
+                         ISO 13485
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox5">
+                        <label class="form-check-label" for="checkbox5">
+                      ISO 9001
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox6">
+                        <label class="form-check-label" for="checkbox6">
+                          ISO 9001:2015 
+                        </label>
+                      </div>
+
+                    </div>
+                    <br>
+                    <h5 class="mb-3">Manufacturer Location</h5> 
+                      <input type="email" class="form-control rounded-pill text-center bg-light"style="height: 44px;" id="exampleFormControlInput1" placeholder="Country/Region">
+                    
+                  <br>
+                  
+                    <div class="form-group" style="height: 150px; overflow-y: scroll; scrollbar-width: thin;">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox1">
+                        <label class="form-check-label" for="checkbox1">
+                          Australia
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox2">
+                        <label class="form-check-label" for="checkbox2">
+                          Canada
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox3">
+                        <label class="form-check-label" for="checkbox3">
+                         China
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox4">
+                        <label class="form-check-label" for="checkbox4">
+                         Hong kong S.A.R
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox5">
+                        <label class="form-check-label" for="checkbox5">
+                         India
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox6">
+                        <label class="form-check-label" for="checkbox6">
+                          Korea, Republic of 
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox7">
+                        <label class="form-check-label" for="checkbox7">
+                          United Kingdom
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox8">
+                        <label class="form-check-label" for="checkbox8">
+                          United States
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox9">
+                        <label class="form-check-label" for="checkbox9">
+                         Vietnam
+                        </label>
+                      </div>
+                     
+                    </div>
+                    <br>
+                    <h5 class="mb-3">Stock Availability</h5> 
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="checkbox6">
+                        <label class="form-check-label" for="checkbox6">
+                        In USA
+                        </label>
+                      </div>
+                </div>
+            </div>
+            <!-- cards -->
+            
+            
+
+            
+        
+        <div class="col-xl-9 col-lg-8 col-sm-12">
+<p style="color:#918F8F">Buy</p>
+
+<div class="gradient-box ">
+  <div class="order-info  text-white">
+    <p class="text-center fs-5">Placing Bulk Order on BuyHive is safe & easy.<br><span class="fw-bold fs-5">Click to learn how it works!</span></p>
+  </div>
+</div>
+<div class="row justify-content-between mt-5 row-cols-xl-3 row-cols-md-2 row-cols-1 gy-4">
+    <!-- card-1 -->
+    <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/2034888965/Images/16066601421950233806.png"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <small><img width="30px" src="https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg" alt=""><span class="ps-2"
+                style="font-size: 13px;">Stock in USA</span></small>
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    <!-- card-2 -->
+    <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/77970949/Images/16188995271096357559.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    
+      <!-- card-3 -->
+      <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1041568960/Images/16066628121301820143.png"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+       <!-- card-4 -->
+    <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1165021632/Images/16188992531189254654.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    <!-- card-5 -->
+    <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/2124433551/Images/16066651181992181153.png"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    
+      <!-- card-6 -->
+      <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/169637263/Images/1618198984384152277.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+          <!-- card-7 -->
+    <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1062202442/Images/16067031431828326643.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    <!-- card-8 -->
+    <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1252763978/Images/16257460221368195464.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    
+      <!-- card-9 -->
+      <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/2082144273/Images/16067070521180701606.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+       <!-- card-10 -->
+    <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/192335121/Images/16200162821635544309.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    <!-- card-11 -->
+    <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1208115420/Images/16197288961092772393.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    
+      <!-- card-12 -->
+      <div class="col">
+        <div class="card border-0 card-product">
+          <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/145327259/Images/1619403760501756204.jpg"  
+          style="width: 200px; height: 200px;" alt="">
+          <div class="card-body">
+            <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+            <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+            <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+            <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>    
+      <!-- card-13 -->
+      <div class="col">
+          <div class="card border-0 card-product">
+            <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/572093286/Images/1606791126532888161.jpg"  
+            style="width: 200px; height: 200px;" alt="">
+            <div class="card-body">
+              <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+              <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+              <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+              <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      <!-- card-14 -->
+      <div class="col">
+          <div class="card border-0 card-product">
+            <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1232418918/Images/1619422970550436904.jpg"  
+            style="width: 200px; height: 200px;" alt="">
+            <div class="card-body">
+              <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+              <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+              <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+              <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      
+        <!-- card-15 -->
+        <div class="col">
+          <div class="card border-0 card-product">
+            <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1654953773/Images/1606793463688587430.jpg"  
+            style="width: 200px; height: 200px;" alt="">
+            <div class="card-body">
+              <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+              <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+              <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+              <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+         <!-- card-16 -->
+      <div class="col">
+          <div class="card border-0 card-product">
+            <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/594791144/Images/16067943451725828453.jpg"  
+            style="width: 200px; height: 200px;" alt="">
+            <div class="card-body">
+              <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+              <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+              <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+              <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      <!-- card-17 -->
+      <div class="col">
+          <div class="card border-0 card-product">
+            <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1612672695/Images/16068166341187541500.jpg"  
+            style="width: 200px; height: 200px;" alt="">
+            <div class="card-body">
+              <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+              <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+              <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+              <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      
+        <!-- card-18 -->
+        <div class="col">
+          <div class="card border-0 card-product">
+            <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/548045426/Images/16069205571669188793.jpg"  
+            style="width: 200px; height: 200px;" alt="">
+            <div class="card-body">
+              <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+              <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+              <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+              <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>    
+        <!-- card-19 -->
+        <div class="col">
+            <div class="card border-0 card-product">
+              <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/639457796/Images/16070481281322775491.png"  
+              style="width: 200px; height: 200px;" alt="">
+              <div class="card-body">
+                <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+                <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+                <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+                <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        <!-- card-20 -->
+        <div class="col">
+            <div class="card border-0 card-product">
+              <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1299777284/Images/1619502988228516636.jpg"  
+              style="width: 200px; height: 200px;" alt="">
+              <div class="card-body">
+                <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+                <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+                <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+                <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        
+          <!-- card-21 -->
+          <div class="col">
+            <div class="card border-0 card-product">
+              <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1722351043/Images/1607050226350036635.png"  
+              style="width: 200px; height: 200px;" alt="">
+              <div class="card-body">
+                <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+                <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+                <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+                <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+           <!-- card-22 -->
+        <div class="col">
+            <div class="card border-0 card-product">
+              <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1499490243/Images/1637398378379541107.jpg"  
+              style="width: 200px; height: 200px;" alt="">
+              <div class="card-body">
+                <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+                <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+                <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+                <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        <!-- card-23 -->
+        <div class="col">
+            <div class="card border-0 card-product">
+              <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/504339342/Images/1637399316796627805.jpg"  
+              style="width: 200px; height: 200px;" alt="">
+              <div class="card-body">
+                <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+                <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+                <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+                <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        
+          <!-- card-24 -->
+          <div class="col">
+            <div class="card border-0 card-product">
+              <img class="card-img-top mx-auto d-block img-fluid object-fit-contain" src="https://tbh-production.s3.ap-southeast-1.amazonaws.com/Product/1591426901/Images/1637564787306821730.jpg"  
+              style="width: 200px; height: 200px;" alt="">
+              <div class="card-body">
+                <p class="fw-medium mt-0 mb-1" style="font-size: 15px;">Rolhei 75% Ethanol Wet Wipe-100 Co...</p>
+                <p class="text-black-50 small mt-0 mb-0">MOQ:1512 Pieces</p>
+                <p class="fw-bold mt-0">$ 1.40 / Piece</p>
+                <button type="submit" class="btn btn-info btn-card text-white w-100 fw-bold add-to-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+</div>
+        
+
+</div>
+</div>
+</div>
+<div class="container-fluid bg-light">
+    <div class="row m-5">
+      <!-- 1 -->
+        <div class="col col-xl-4 col-lg-3 col-sm-12 m-">
+<p>Connecting buyers and manufacturers using the world’s best sourcing experts & technology built by buyers, for buyers.</p> <br>
+<h4>Sign Up to Our Newsletter</h4>
+<form>
+  <div class="form-group">
+    <label for="email">Email <span style="color: red;">*</span></label> 
+    <input type="email" class="form-control rounded-pill bg-light" id="email" placeholder="" style="border: none; border: 1px solid gray ;height: 40px;">
+    <br>
+    <button type="button" class="btn rounded-pill" style="background-color: #39B7C9;width: 100px; height: 40px;color: white;">Submit</button>
+
+  </div>
+</form>
+
+
+        </div>
+        <!-- 2 -->
+        <div class="col col-xl-2 col-lg-2 col-sm-12 ">
+          <h4>About Us</h4>
+      <ul style="list-style: none;padding-left: 0;">
+        <li>Our Story</li>
+        <li>How to Buy</li>
+        <li>Our Partners</li>
+        <li>Contact Us</li>
+        <li>Careers</li>
+        <li>Terms of Use</li>
+        <li>Privacy Policy</li>
+      </ul>
+     
+          
+          
+                  </div>
+                  <div class="col col-xl-2 col-lg-2 col-sm-12  ">
+                    <h4>Our Services</h4>
+                <ul style="list-style: none;padding-left: 0;">
+                  <li>Expert Sourcing</li>
+                  <li>How to Buy</li>
+                  <li>Contract Manufacturing</li>
+                  <li>Buy</li>
+                  <li>Finance</li>
+                  
+                </ul>
+         
+                            </div>
+                            <div class="col col-xl-2 col-lg-2 col-sm-12  ">
+                              <h4>Account</h4>
+                          <ul style="list-style: none;padding-left: 0;">
+                            <li>Sign In</li>
+                            <li>Register to Buy</li>
+                            <li>My Profile</li>
+                      <li> My Orders</li>
+                            <li>Register to Sell</li>
+                            <li>Become a Sourcing Expert</li>
+                          
+                          </ul>
+                       
+                                      </div>
+                                      <div class="col col-xl-2 col-lg-2 col-sm-12 ">
+                                        <h4>  Our Locations</h4>
+                                    <ul style="list-style: none;padding-left: 0;">
+                                      <li> Dragon Industrial Bldg.</li>
+                                      <li> Unit 8B, 93 King Lam St.</li>
+                                      <li>  Kowloon, Hong Kong</li>
+                                      <li> BuyHive USA Inc.</li>
+                                      <li>4730 South Fort Apache Rd.</li>
+                                      <li>  Suite 300</li>
+                                      <li> Las Vegas, NV 89147</li>
+                                      <li> USA</li>
+                                    </ul>
+                             
+                                                </div>
+    </div>
+    <div style="text-align: center;">
+      <hr style="border-top: 1px solid black; margin: 20px auto; width: 90%;">
+    </div>
+    <div class="container">
+     <div class="row">
+      <div class="col-xl-8 col-lg-8">
+        <p style="color: #918F8F;">© 2023 Rehan</p>
+              </div>
+              <div class="col-xl-2 col-lg-2">
+                <p style="color: #918F8F;">Terms of Use</p>
+                      </div>
+                      <div class="col-xl-2 col-lg-2">
+                        <p style="color: #918F8F;">Privacy Policy</p>
+                              </div>
+     </div>
+    </div>
+</div>
+</body>
+</html>
